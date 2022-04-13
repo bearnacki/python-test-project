@@ -1,0 +1,5 @@
+NO_FILE_MSG = 'No file in the request'
+INCORRECT_FILE_NAME_MSG = 'Incorrect file name'
+INCORRECT_FILE_EXTENSION_MSG = 'Incorrect file extension'
+NO_EXCEL_COLUMN_MSG = 'No excel column name in the request'
+ERROR_DURING_FILE_PROCESSING_MSG = 'Error during excel file processing'
