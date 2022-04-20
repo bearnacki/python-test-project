@@ -9,13 +9,25 @@ Flask API that allow uploading an Excel file and returns a summary of provided c
 python -m venv ./venv
 ```
 
-2. Install dependencies by `setup.py`
+2. Activate virtual environment
+
+On Windows, run:
+```
+.\venv\Scripts\activate.bat
+```
+
+On Unix or MacOS, run:
+```
+source ./venv/bin/activate
+```
+
+3. Install dependencies by `setup.py`
 
 ```
 pip install python_test_project
 ```
 
-3. Run flask application
+4. Run flask application
 
 ```
 python main.py
