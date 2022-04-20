@@ -24,7 +24,7 @@ source ./venv/bin/activate
 3. Install dependencies by `setup.py`
 
 ```
-pip install python_test_project
+pip install .
 ```
 
 4. Run flask application
