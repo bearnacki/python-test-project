@@ -3,7 +3,7 @@ from os import path
 from flask import Flask
 from werkzeug.utils import secure_filename
 from werkzeug.datastructures import FileStorage
-from flask_restx import Resource, Api, fields
+from flask_restx import Resource, Api
 
 from .excel_summary import process_excel_file
 from .messages import NO_FILE_MSG, INCORRECT_FILE_NAME_MSG, INCORRECT_FILE_EXTENSION_MSG, NO_EXCEL_COLUMN_MSG,\
